@@ -27,12 +27,13 @@ quiet solar transition region.
 ## The slides on the web
 
 https://roytsmart.github.io/iris-hinode-meeting-2024/ shows the slides with
-their movies playing. It is built from the deck with
+their movies playing and the speaker notes under each one. It is built from the deck with
 [pptx-to-html](https://github.com/roytsmart/pptx-to-html):
 
 ```bash
 pptx-to-html "Inverting ESIS Observations of the Solar Transition Region.pptx" docs \
     --title "Inverting ESIS Observations of the Solar Transition Region using Convolutional Neural Networks" \
     --subtitle "IRIS-Hinode 2024 · Bozeman, Montana · the slides as they were presented, with the movies playing" \
-    --reencode
+    --reencode \
+    --notes
 ```
